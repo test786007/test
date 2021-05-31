@@ -47,7 +47,7 @@ class getProductCommand extends AbstractCommand
                 "gtin" => $prod->getGtin(),        
                 "Sku" => $prod->getSku(),
                 "name" => $prod->getName(),
-                "description" => $prod->getDescription(),
+                "Description" => $prod->getDescription(),
                 "quantity" => $prod->getQuantity(),
                 "subscription" => $prod->getName(),
 
